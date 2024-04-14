@@ -1,0 +1,37 @@
+body{
+	background-image: url("bg.png");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 30px;
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+#heading
+{
+    color: white;
+    font-family: "Audiowide",sans-serif ;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.text
+{
+    color: aliceblue;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.carbtn
+{
+    font-family: "Teko",sans-serif;
+    font-size: 20px;
+
+}
+
+.bgbtn
+{
+    font-family: "Teko",sans-serif;
+}

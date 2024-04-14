@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Teko:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Valet Parking</title>
+</head>
+<body onload="add();">
+
+<center>
+<h1 id = "heading"><i>Valet Parking</i></h1>
+<h3 class = "text">Use you arrow keys to move the car to the highlighted parking slot. Press the buttons to switch between different car and background images.</h3>
+<h4 class = "text">
+	<b class="text-danger ">Note : </b> If car is not visible, press any arrow key!
+</h4>
+<button onclick="changeCarImage('car1.png')" class = "carbtn btn btn-danger">Car 1 </button>
+<button onclick="changeCarImage('car2.png')" class = "carbtn btn btn-danger">Car 2 </button>
+<button onclick="changeCarImage('car3.png')" class = "carbtn btn btn-danger">Car 3 </button>
+<button onclick="changeCarImage('car4.png')" class = "carbtn btn btn-danger">Car 4 </button>
+<button onclick="changeCarImage('car5.png')" class = "carbtn btn btn-danger">Car 5 </button>
+<button onclick="changeCarImage('car6.png')" class = "carbtn btn btn-danger">Car 6 </button>
+<button onclick="changeCarImage('car7.png')" class = "carbtn btn btn-danger">Car 7 </button>
+<button onclick="changeCarImage('car8.png')" class = "carbtn btn btn-danger">Car 8 </button>
+<button onclick="changeCarImage('car9.png')" class = "carbtn btn btn-danger">Car 9 </button>
+<button onclick="changeCarImage('car10.png')"class = "carbtn btn btn-danger">Car 10</button>
+<button onclick="changeCarImage('car11.png')"class = "carbtn btn btn-danger">Car 11</button>
+<button onclick="changeCarImage('car12.png')"class = "carbtn btn btn-danger">Car 12</button>
+<br><br>
+<button onclick="changeBackgroundImage('bg.png')"  class="bgbtn btn btn-primary">Background 1</button>
+<button onclick="changeBackgroundImage('bg1.jpg')" class="bgbtn btn btn-primary">Background 2</button>
+<button onclick="changeBackgroundImage('bg2.jpg')" class="bgbtn btn btn-primary">Background 3</button>
+<button onclick="changeBackgroundImage('bg3.png')" class="bgbtn btn btn-primary">Background 4</button>
+<button onclick="changeBackgroundImage('bg4.png')" class="bgbtn btn btn-primary">Background 5</button>
+<button onclick="changeBackgroundImage('bg5.jpeg')"class="bgbtn btn btn-primary">Background 6</button>
+<button onclick="changeBackgroundImage('bg6.jpg')" class="bgbtn btn btn-primary">Background 7</button>
+<br>
+<canvas id = "myCanvas" width = "1100" height = "618"></canvas>
+
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
